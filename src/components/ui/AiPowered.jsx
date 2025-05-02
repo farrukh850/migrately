@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import CommonHeading from "../common/CommonHeading"
-function Aipowered() {
+function AiPowered() {
   return (
     <div className="pb-10 pt-25 lg:pb-[146px]">
         <div className="container">
@@ -37,4 +37,4 @@ function Aipowered() {
   )
 }
 
-export default Aipowered
+export default AiPowered
