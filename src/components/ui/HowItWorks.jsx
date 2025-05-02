@@ -29,15 +29,30 @@ function HowItWorks() {
                     </div>
                 </div>
                 <div className="col-span-12 lg:col-span-6 bg-[#F3F5FC] relative flex items-end justify-center">
-                    <div className="w-full lg:w-[464px] h-[300px] lg:h-[504px]">
+                    <div className="w-[350px] lg:w-[464px] h-[300px] lg:h-[504px] relative">
                         <img src="/images/how-it-works.svg" className="w-full h-full object-contain lg:object-cover" alt="How It Works Image" />
+                        <div className="absolute top-[13%] left-[36%] lg:left-[33%]">
+                            <img src="/images/automate-gif.gif" className="w-5" alt="Automate Gif" />
+                        </div>
                     </div>
                 </div>
             </div>
             <div className="grid grid-cols-12 items-stretch min-h-[497px] h-full mt-10.5 shadow-[0px_30.503px_40.371px_18.84px_rgba(62,82,198,0.07)] rounded-xl">
                 <div className="col-span-12 lg:col-span-6 bg-[#F3F5FC] relative flex items-end justify-center order-2 lg:order-1">
-                    <div className="w-full lg:w-[464px] h-[300px] lg:h-[504px]">
+                    <div className="w-[350px] lg:w-[350px] h-[504px] lg:h-[504px] relative">
                         <img src="/images/scale-your-practice.svg" className="w-full h-full object-contain" alt="How It Works Image" />
+                        <div className="absolute top-[30%] left-[30%] sm:top-[28%] sm:left-[30%]">
+                            <img src="/images/automate-gif-2.gif" className="w-5" alt="Automate Gif" />
+                        </div>
+                        <div className="absolute top-[30%] left-[80%] sm:top-[28%] sm:left-[80%]">
+                            <img src="/images/automate-gif-3.gif" className="w-5" alt="Automate Gif" />
+                        </div>
+                        <div className="absolute top-[57%] left-[30%] sm:top-[58%] sm:left-[30%]">
+                            <img src="/images/automate-gif-2.gif" className="w-5" alt="Automate Gif" />
+                        </div>
+                        <div className="absolute top-[57%] left-[80%] sm:top-[58%] sm:left-[80%]">
+                            <img src="/images/automate-gif-3.gif" className="w-5" alt="Automate Gif" />
+                        </div>
                     </div>
                 </div>
                 <div className="col-span-12 lg:col-span-6 flex flex-col p-5 lg:py-22 lg:pl-22 lg:pr-15 bg-[#fff] order-1 lg:order-2">
@@ -80,7 +95,7 @@ function HowItWorks() {
                 </div>
                 <div className="col-span-12 lg:col-span-6 bg-[#F3F5FC] relative flex items-end justify-center">
                     <div className="w-full lg:w-[464px] h-[300px] lg:h-[504px]">
-                        <img src="/images/case-prep.svg" className="w-full h-full object-contain" alt="Case Prep Image" />
+                        <img src="/images/text-gif.gif" className="w-full h-full object-contain" alt="Case Prep Image" />
                     </div>
                 </div>
             </div>
