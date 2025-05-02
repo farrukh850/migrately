@@ -29,7 +29,12 @@ function AiPowered() {
                     </div>
                 </div>
                 <div className="col-span-12 lg:col-span-6 bg-[rgba(62,82,198,0.07)] lg:pl-[79px] lg:pt-[47px] lg:pr-4 p-5">
-                    <img src="/images/immigration-image.svg" className="w-full h-full object-contain" alt="Immigration Image" />
+                    <div className="w-[350px] lg:w-[500px] h-[300px] lg:h-[518px] mx-auto relative">
+                        <img src="/images/immigration-image.svg" className="w-full h-full object-contain" alt="Immigration Image" />
+                    </div>
+                    <div className="absolute top-[43%] left-[40%] lg:top-[47%] lg:left-[72%]">
+                        <img src="/images/check-list.gif" className="w-12" alt="Automate Gif" />
+                    </div>
                 </div>
             </div>
         </div>
