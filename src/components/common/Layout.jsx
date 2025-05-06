@@ -2,8 +2,10 @@ import { Outlet } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 import "../../assets/css/main.css";
+import useAOS from '../../hooks/useAOS';
 
 const Layout = ({ children }) => {
+  useAOS();
   return (
     <div className="layout">
       <Header />
