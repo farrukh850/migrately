@@ -9,8 +9,8 @@ const Home = () => {
     <div className="">
      <Banner />
      <Aipowered />
-     <HowItWorks />
      <WorkSmarter />
+     <HowItWorks />
      <CTA />
     </div>
   );
